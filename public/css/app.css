@@ -1,0 +1,123 @@
+@import url(https://fonts.googleapis.com/css2?family=Raleway&family=Roboto&display=swap);:root {
+  --main-bg-color: #f8fafc;
+  --primary: #FFAC30;
+  --secondary: #F1F3F6;
+  --Raleway: "Raleway", sans-serif;
+  --Roboto: "Raleway", sans-serif;
+  --font-size-base: 0.9rem;
+  --line-height-base: 1.6;
+  --blue: #3490dc;
+  --indigo: #6574cd;
+  --purple: #9561e2;
+  --pink: #f66d9b;
+  --red: #e3342f;
+  --orange: #f6993f;
+  --yellow: #ffed4a;
+  --green: #38c172;
+  --teal: #4dc0b5;
+  --cyan: #6cb2eb;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: var(--font-family-Raleway);
+  font-size: var(--font-size-base);
+  line-height: var(--line-height-base);
+}
+
+body {
+  background-color: var(--main-bg-color);
+}
+
+h1 {
+  font-size: 1.6rem;
+}
+
+header nav {
+  display: flex;
+  padding: 0.5rem;
+  box-shadow: 0.1rem 0.1rem 0.1rem lightgray;
+}
+
+header nav logo {
+  float: left;
+}
+
+header nav logo img {
+  display: inline;
+}
+
+header nav logo h1 {
+  display: inline;
+  font-family: Roboto;
+  margin: 0;
+  padding: 0;
+}
+
+header nav navtoggle {
+  display: flex;
+  float: right;
+  margin-left: auto;
+  background-color: var(--secondary);
+  border-radius: 0.4rem;
+  padding: 0 0.8rem 0 0.8rem;
+}
+
+#content {
+  margin-top: 2rem;
+  padding: 0 1rem 0 1rem;
+}
+
+#content :first-child {
+  margin-bottom: 0.5rem;
+}
+
+#content :first-child h2 {
+  font-family: var(--Raleway);
+  font-weight: bold;
+  font-size: 1rem;
+  margin: 0;
+}
+
+#content :first-child #search {
+  display: flex;
+  margin-top: 0.5rem;
+}
+
+#content :first-child #search input {
+  background-color: var(--secondary);
+  border: none;
+  width: calc(100% - 1.5rem);
+  height: 3rem;
+  padding-left: 1.5rem;
+  border-radius: 0.7rem;
+  font-size: large;
+  font-weight: bold;
+  font-family: var(--Raleway);
+}
+
+#content :first-child #search button {
+  background-color: var(--primary);
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 100%;
+  margin-left: -15%;
+  margin-top: 0.2rem;
+  border: none;
+  padding: 0.5rem;
+}
+
+#content :first-child #search button img {
+  margin-top: 0.1rem;
+  background-color: transparent;
+}
+
+#content :nth-child(2) {
+  background-color: lightseagreen;
+}
+
+#content :nth-child(3) {
+  background-color: lightpink;
+}
+

@@ -1,1 +1,20 @@
-//
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Roboto&display=swap');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+// @import '~bootstrap/scss/bootstrap';
+
+// Layouts
+@import 'layouts/app';
+
+// Increments
+// // Navbar
+@import 'inc/navbar';
+
+// Pages
+// -- Word
+// -- -- Index Page
+@import 'word/index';

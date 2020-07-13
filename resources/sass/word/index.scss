@@ -1,0 +1,57 @@
+#content
+{
+    margin-top: 2rem;
+    padding: 0 1rem 0 1rem;
+    :first-child
+    {
+        margin-bottom: .5rem;
+        h2
+        {
+            font-family: var(--Raleway);
+            font-weight: bold;
+            font-size: 1rem;
+            margin: 0;
+        }
+        #search
+        {
+            display: flex;
+            margin-top: .5rem;
+            input
+            {
+                background-color: var(--secondary);
+                border: none;
+                width: calc(100% - 1.5rem);
+                height: 3rem;
+                padding-left: 1.5rem;
+                border-radius: .7rem;
+                font-size: large;
+                font-weight: bold;
+                font-family: var(--Raleway);
+            }
+            button
+            {
+                background-color: var(--primary);
+                width: 2.5rem;
+                height: 2.5rem;
+                border-radius: 100%;
+                margin-left: -15%;
+                margin-top: .2rem;
+                border: none;
+                padding: .5rem;
+                img
+                {
+                    margin-top: .1rem;
+                    background-color: transparent;
+                }
+            }
+        }
+    }
+    :nth-child(2)
+    {
+        background-color: lightseagreen;
+    }
+    :nth-child(3)
+    {
+        background-color: lightpink;;
+    }
+}

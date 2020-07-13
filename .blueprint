@@ -1,0 +1,21 @@
+created:
+    - database/migrations/2020_07_12_115637_create_words_table.php
+    - database/migrations/2020_07_12_115638_create_synonyms_table.php
+    - app/Word.php
+    - app/Synonyms.php
+    - database/factories/WordFactory.php
+    - database/factories/SynonymsFactory.php
+    - database/seeds/WordSeeder.php
+    - app/Http/Controllers/WordController.php
+    - app/Events/NewWord.php
+    - app/Http/Requests/WordUpdateRequest.php
+    - resources/views/word/show.blade.php
+    - resources/views/word/create.blade.php
+    - resources/views/word/edit.blade.php
+    - tests/Feature/Http/Controllers/WordControllerTest.php
+updated:
+    - routes/web.php
+models:
+    User: { name: string, email: string, email_verified_at: 'datetime nullable', password: string, remember_token: 'string:100 nullable' }
+    Word: { word: 'string:100', countary: 'string:100', language: 'string:100', meaning: 'string:100', defination: longtext }
+    Synonyms: { word_id: bigInteger, syno_id: bigInteger }
